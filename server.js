@@ -41,10 +41,6 @@ app.get('/', (req, res) => {
 
 
 
-<<<<<<< HEAD
 app.listen(PORT,'0.0.0.0', () => {
-=======
-app.listen(PORT, '0.0.0.0' () => {
->>>>>>> 3a1f92951264717c91f144a9f760fcdfa7d16aa9
     console.log(`Server running on http://localhost:${PORT}`)
 })
